@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Palette Gen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-card">
+        <div class="top-bar">
+            <h1 id="title">Palette Gen</h1>
+            <div class="switches">
+                <!-- Language Toggle -->
+                <div class="toggle-wrapper">
+                    <span class="toggle-label">EN/ES</span>
+                    <label class="switch">
+                        <input type="checkbox" id="lang-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <!-- Theme Toggle -->
+                <div class="toggle-wrapper">
+                    <span id="theme-label" class="toggle-label">Dark</span>
+                    <label class="switch">
+                        <input type="checkbox" id="mode-toggle" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="settings">
+            <label id="label-count">Count:</label>
+            <select id="color-count">
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+
+        <div id="palette-grid" class="grid-layout"></div>
+
+        <div class="button-group">
+            <button id="btn-hex" onclick="generatePalette('hex')">HEX</button>
+            <button id="btn-hsl" onclick="generatePalette('hsl')">HSL</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
