@@ -1,6 +1,6 @@
 const translations = {
-    en: { title: "Palette Gen", count: "Count:", hex: "GEN HEX", hsl: "GEN HSL", copied: "Saved!", theme: ["Light", "Dark"] },
-    es: { title: "Paleta Gen", count: "Cantidad:", hex: "GEN HEX", hsl: "GEN HSL", copied: "Copiado!", theme: ["Claro", "Oscuro"] }
+    en: { title: "Palette Generator", count: "Count:", hex: "GEN HEX", hsl: "GEN HSL", copied: "Saved!", theme: ["Light", "Dark"] },
+    es: { title: "Genera tu Paleta de colores", count: "Cantidad:", hex: "GEN HEX", hsl: "GEN HSL", copied: "Copiado!", theme: ["Claro", "Oscuro"] }
 };
 
 let currentLang = 'en';

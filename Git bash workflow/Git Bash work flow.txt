@@ -1,0 +1,120 @@
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores
+$ git init
+Initialized empty Git repository in C:/Users/Usuario/Desktop/Soy Henry/webpt34/P
+agina web paleta de colores/.git/
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git ignore
+git: 'ignore' is not a git command. See 'git --help'.
+
+The most similar command is
+        diagnose
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git diagnose
+Collecting diagnostic info
+
+git version 2.53.0.windows.1
+cpu: x86_64
+built from commit: a5512bdee37ed7142c233d21e2d347ffc4860ff3
+sizeof-long: 4
+sizeof-size_t: 8
+shell-path: D:/git-sdk-64-build-installers/usr/bin/sh
+rust: disabled
+feature: fsmonitor--daemon
+gettext: enabled
+libcurl: 8.18.0
+OpenSSL: OpenSSL 3.5.5 27 Jan 2026
+zlib: 1.3.1
+SHA-1: SHA1_DC
+SHA-256: SHA256_BLK
+default-ref-format: files
+default-hash: sha1
+Repository root: C:/Users/Usuario/Desktop/Soy Henry/webpt34/Pagina web paleta de
+ colores
+Available space on 'C:/': 800.58 GiB
+
+Diagnostics complete.
+All of the gathered info is captured in 'git-diagnostics-2026-03-23-1951.zip'
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git add index.html
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git add styles.css
+fatal: pathspec 'styles.css' did not match any files
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git add css
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git add js
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git remote add origin git@github.com:alfinaltodoeslomismo/Conectando-Git-a-GitHub.git
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (master)
+$ git branch -M main
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:alfinaltodoeslomismo/Conectando-G
+it-a-GitHub.git'
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   css/styles.css
+        new file:   index.html
+        new file:   js/my-script.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        AI  Prompts repository/
+        git-diagnostics-2026-03-23-1951.zip
+
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ git ignore AI Prompts
+git: 'ignore' is not a git command. See 'git --help'.
+
+The most similar command is
+        diagnose
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ gitignore AI Prompts
+bash: gitignore: command not found
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ git commit -m "first commit: adding AI Prompted Color palette generator to play later with the features"
+[main (root-commit) 868fe36] first commit: adding AI Prompted Color palette gene
+rator to play later with the features
+ 3 files changed, 186 insertions(+)
+ create mode 100644 css/styles.css
+ create mode 100644 index.html
+ create mode 100644 js/my-script.js
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 2.94 KiB | 1.47 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:alfinaltodoeslomismo/Conectando-Git-a-GitHub.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$ ^C
+
+Usuario@Dell-1 MINGW64 ~/Desktop/Soy Henry/webpt34/Pagina web paleta de colores (main)
+$
